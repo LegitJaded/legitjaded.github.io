@@ -1,0 +1,309 @@
+html {
+    background-color: #5c0d0c;
+}
+
+/*webpage main header*/
+h1 {
+    text-align: center;
+    color: orangered;
+    font-size: 2000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*end main header*/
+
+div.background {
+    background-image: url(../Images/film.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 800px;
+}
+
+.nav {
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: sans-serif;
+    font-size: 85%;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #040708;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.main-area {
+    width: 92%;
+    float: left;
+    padding-right: 40px;
+    padding-left: 40px;
+    border: solid #5c0d0c;
+    margin: auto;
+}
+
+/*Media Query*/
+@media screen and (max-width: 480px) {
+    .main-area {
+        width: auto;
+        float: none;
+    }
+}
+
+.content-area {
+    border-top: 3px #5c0d0c;
+    border-bottom: 3px solid ;
+}
+
+@media screen and (max-width: 480px) {
+    .content-area {
+        padding-top: 20px;
+    }
+}
+
+/*site nav*/
+.site-nav {
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.site-nav ul {
+    margin: 4px;
+    padding: 3px;
+}
+
+.site-nav li {
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px; 
+}
+
+.site-nav a {
+    float: left;
+    text-decoration: none;
+    color: whitesmoke;
+    border: 2px solid #5c0d0c;
+    padding: 15px 12px;
+    font-size: 15px;
+}
+
+.site-nav a:hover {
+    background-color: #5c0d0c;
+}
+/*end site nav*/
+
+@media screen and (max-width: 700px) {
+    .site-nav li {
+        width: 50%;
+        margin-right: 0;
+    }
+    .site-nav a {
+        padding: 25px 60px 25px 60px;
+        margin-right: 5px;
+        text-align: center;
+        border: 3px solid #5c0d0c;
+    }
+}
+
+/*dropdown*/
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative; 
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #8d2929;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: rgb(234, 224, 224);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #d37272;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #a82929;
+}
+/*end dropdown*/
+
+.p li {
+    color: azure;
+}
+
+.fix {
+    clear: both;
+}
+
+header h2 {
+    color: #9e0200; 
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
+    'Lucida Sans Unicode', Verdana, sans-serif;
+    text-align: center;
+}
+
+h2.sc {
+    color: #9e0200;
+    text-align: center;
+}
+
+.channel {
+    color: rgba(227, 103, 14, 0.893);
+}
+
+p {
+    color: whitesmoke;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.group:before,
+.group:after {
+    content: " ";
+    display: table;
+            }
+.group:after {
+    clear: both;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    color: #49c3f7;
+}
+
+header p {
+    color: #66a0c5;
+}   
+
+header p span {
+    color:blue
+}
+
+.explanation .highlight {
+    margin-top: 5px;
+}
+
+.highlight {
+    color:#66a0c5;
+}
+
+.highlight p ol {
+    padding-top: 5px;
+}
+
+.sidebar p {
+    text-align: center;
+    color: #a82929;
+    text-decoration: none;
+}
+
+footer {
+    color: red;
+}
+
+footer p {
+    color: red;
+    text-align: center;
+    font-size: 88%;
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+a {
+    color: #1818b8;
+}
+
+.explanation p a {
+    text-decoration: none;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    display: inline-block;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+
+  div.fullgallery {
+    padding-bottom: 40px;
+    padding-left: 50px;
+  }
+
+  p.spoiler {
+    color: #e9ba74;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .group:before,
+  .group:after {
+      content: " ";
+      display: table;
+              }
+  .group:after {
+      clear: both;
+  }
+
+  a {
+    color: #1818b8;
+}
